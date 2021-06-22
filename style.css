@@ -24,6 +24,7 @@ h1{
     background-color: darkslategrey;
 }
 
+
 form{
     margin: auto;
     padding: 10px;
@@ -31,6 +32,7 @@ form{
     width: 300px;
     height: 250px;
     border: 10px solid black; 
+    margin-top: 20px;
 }
 
 
