@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!--name is used when submit the input field-->
+    <form>
+        <div>
+            <input type="text" placeholder="Full name" name="name">
+            <input type="password" placeholder="Password" name="password">
+        </div>
+        <div>
+            <h2>Favorite Color?</h2>
+            <input name= "color" type="radio" value="red">Red
+            <input name= "color" type="radio" value="green">Green
+            <input name= "color" type="radio" value="violet">Violet
+            <input name= "color" type="radio" value="rose">Rose
+        </div>
+        <div>
+            <input name="country" list="countries" placeholder="Country">
+            <datalist id="countries">
+                <option value="Afghanistan"></option>
+                <option value="Albania"></option>
+                <option value="Argentina"></option>
+                <option value="Brasil"></option>
+                <option value="Australia"></option>
+                <option value="United States"></option>
+            </datalist>
+        </div>
+        <div>
+            <input type="submit" name="submit">
+        </div>
+
+    </form>
+</body>
+</html>
